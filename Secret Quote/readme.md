@@ -44,9 +44,20 @@
 
 
 # MEDIUM
+**1.Build on the "Easy" version's foundation.**
+**2. **Enhance Security:**
+    - Install the `bcrypt` library (`npm install bcrypt`).
+    <pre>npm install bcrypt</pre>
+    - When a user registers via `POST /register`, **hash their password** using `bcrypt` before storing it in your in-memory database.
+    - During login (`POST /login`), use `bcrypt.compare()` to securely check the provided password against the stored hash.
 ## Using bycrpt
 <img width="710" alt="image" src="https://github.com/user-attachments/assets/e6fbaf89-dada-4168-878e-a148103cca23" />
 
+3. **Implement Full CRUD for To-Dos:**
+    - All of the following routes must be protected by your authentication middleware.
+    - `GET /api/todos`: Should return **only the to-do items belonging to the currently logged-in user**. Use the `userId` from the decoded JWT (`req.user.id`) to filter the results.
+    - `POST /api/todos`: Should create a new to-do item and associate it with the currently logged-in user.
+    - `DELETE /api/todos/:id`: Should only allow a user to delete a to-do item **if they are the**
 ## Added a task
 ![image](https://github.com/user-attachments/assets/2cb4dd7a-a7e4-4900-9428-e8bd31c226e7)
 
