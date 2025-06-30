@@ -1,12 +1,20 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# RECIPE FINDER
 
-Currently, two official plugins are available:
+## FEATURES IMPLEMENTED
+### HOME PAGE
+-->nav bar with veg and non veg... and a search to get a item with the name
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+![image](https://github.com/user-attachments/assets/d9388ca5-7663-4fd9-bd80-bcfea160068a)
 
-## Expanding the ESLint configuration
+---->Shimmers while loading
+![image](https://github.com/user-attachments/assets/6075e546-3daf-4d51-b857-e00e92025fbd)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+--->Items Component to send the list of items...like veg, non-veg, or whith the search bar
+![image](https://github.com/user-attachments/assets/f9211999-5a9d-4b4d-9b9f-f5e50154f093)
+
+
+-->If you click on specific item you will get the details
+-->If you click on back...it will redirect to home page
+
+![image](https://github.com/user-attachments/assets/3d5f0d9e-d8df-4177-a6af-ed9336fe21af)
