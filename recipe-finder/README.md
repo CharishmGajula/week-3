@@ -2,6 +2,15 @@
 # RECIPE FINDER
 
 ## FEATURES IMPLEMENTED
+<pre>
+  --> HOMEPAGE
+  --> VEG / NON-VEG pages which are linked with <Link to="/Items category="Vegetarion">
+  --> Shimmers While Loading..!
+  --> Loading is handled via REDUX
+  --> Input to Serach via the item name in the nav bar....!
+  -->  <Link to="/Items item={text}}>==> text is set from the input!
+  --> NOT FOUND PAGE IS HANDLED..!
+</pre>
 ### HOME PAGE
 -->nav bar with veg and non veg... and a search to get a item with the name
 
