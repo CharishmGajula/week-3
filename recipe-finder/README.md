@@ -9,9 +9,14 @@
   --> Loading is handled via REDUX
   --> Input to Serach via the item name in the nav bar....!
   --> <Link to="/Items item={text} />text is set from the input!
-  -->  NOTFOUND PAGE IS HANDLED..!
-         
+  -->  NOTFOUND PAGE IS HANDLED..!     
 </pre>
+
+
+
+
+
+
 ### HOME PAGE
 -->nav bar with veg and non veg... and a search to get a item with the name
 
