@@ -4,11 +4,11 @@
 ## FEATURES IMPLEMENTED
 <pre>
   --> HOMEPAGE
-  --> VEG / NON-VEG pages which are linked with <Link to="/Items category="Vegetarion">
+  --> VEG / NON-VEG pages which are linked with <pre><Link to="/Items category="Vegetarion"></pre>
   --> Shimmers While Loading..!
   --> Loading is handled via REDUX
   --> Input to Serach via the item name in the nav bar....!
-  --> <Link to="/Items item={text} />text is set from the input!
+  --><pre> <Link to="/Items item={text} />text is set from the input!</pre>
   -->  NOTFOUND PAGE IS HANDLED..!     
 </pre>
 
